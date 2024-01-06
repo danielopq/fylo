@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<title>Fylo data storage component</title>
+</head>
+<body>
+<div id="main">
+  <div id="fylo-storage">
+    <div id="fylo">
+      <div id="fylo-logo"> <img src="images/logo.svg" alt=""/> </div>
+      <div id="fylo-icons">
+        <div clas="icon"> <img src="images/icon-document.svg" alt=""/> </div>
+        <div clas="icon"> <img src="images/icon-folder.svg" alt=""/> </div>
+        <div clas="icon"> <img src="images/icon-upload.svg" alt=""/> </div>
+      </div>
+    </div>
+    <div id="storage">
+      <div id="tooltip">
+		  <div id="tooltip-body"><span class="tooltip-amount">185 </span><span class="tooltip-text">GB LEFT</span></div>
+		  <div id="tooltip-edge"></div>
+		</div>
+      <div id="storage-used" class="storage-div">You've used <span style="font-weight: 700;">815 GB</span> of your storage</div>
+      <div id="storage-bar-background"  class="storage-div">
+        <div id="bar">
+          <div id="bar-tip"></div>
+        </div>
+      </div>
+      <div id="storage-milestone"  class="storage-div">
+        <div id="minimum">0 GB</div>
+        <div id="maximum">1000 GB</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

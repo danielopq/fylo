@@ -1,0 +1,236 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* CSS Document */
+
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Raleway';
+	background-color: hsl(229, 57%, 11%);
+}
+
+#main{
+	width: 1440px;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: hsl(229, 57%, 11%) url("../images/bg-desktop.png") no-repeat bottom;
+}
+
+#fylo-storage{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+#fylo-storage > div{
+	background-color: hsl(228, 56%, 26%);
+}
+
+#fylo{
+	z-index: 1;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 345px;
+	height: 200px;
+	border-radius: 10px 90px 10px 10px;
+}
+
+#fylo > div{
+	width: 192px;
+	margin-left: 30px;
+}
+
+#fylo-logo > img{
+	display:block;
+	margin-left: 8px;
+}
+
+#fylo-icons{
+	margin-top: 20px;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#fylo-icons > div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 6px;
+	margin:8px;
+	background-color: hsl(229, 57%, 11%);
+}
+
+#storage{
+	width: 540px;
+	height: 155px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+#tooltip{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+	top:-45px;
+	margin-right: 40px;
+	margin-bottom: -45px;
+	align-self: flex-end;
+}
+
+#tooltip-body{
+	width: 180px;
+	height: 70px;
+	border-radius: 5px 5px 0px;
+	background-color: white;
+	text-align: center;
+	line-height: 70px;
+}
+
+#tooltip-edge{
+	width: 0px;
+	height: 0px;
+     border-right: 10px solid white;
+     border-top: 10px solid white;
+     border-left: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+}
+
+#storage-used{
+	text-align: left;
+	margin-bottom: 12px;
+	font-weight: 400;
+}
+
+#storage-bar-background{
+	display:flex;
+	align-items:flex-start;
+	border-radius: 10px;
+	background-color: hsl(229, 57%, 11%);
+}
+
+#bar{
+	height: 16px;
+	width: 340px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%)); 
+	margin: 2px auto 2px 2px;
+}
+
+#bar-tip{
+	height: 14px;
+	width: 14px;
+	border-radius: 7px;
+	margin: 2px 2px 2px auto;
+	background-color: hsl(243, 100%, 93%);
+}
+
+#storage-milestone{
+	display: flex;
+	flex-direction: row;
+	margin-top: 8px;
+}
+
+#storage-milestone > div{
+	width: 270px;
+	height: inherit;
+	font-weight: 700;
+}
+
+#maximum{
+	text-align: right;
+}
+
+.storage-div{
+	height: 20px;
+	width: 460px;
+	font-size: 14px;
+	line-height: 20px;
+	color: hsl(243, 100%, 93%);
+}
+
+.tooltip-amount{
+	font: 700 35px 'Raleway';
+	color:black;
+}
+.tooltip-text{
+	font: 700 14px 'Raleway';
+	color: hsl(229, 7%, 55%);
+}
+
+@media screen and (max-width: 480px) {
+	
+#main{
+	width: 480px;
+	height: 100vh;
+	background-image: url("../images/bg-mobile.png");
+	background-size: cover;
+	}
+	
+#fylo-storage{
+	height: 400px;
+	flex-direction:column;
+	align-items:center;
+	justify-content: center;
+}
+
+#fylo{
+	width: 325px;
+	margin-bottom: 15px;
+}
+	
+#storage{
+	width: 325px;
+	margin-left: auto;
+}
+
+#storage-used{
+	text-align: center;
+}
+	
+.storage-div{
+	width: 260px;
+}
+	
+#tooltip{
+	top:125px;
+	margin-right: 0px;
+	margin-bottom: -55px;
+	align-self:center;
+	justify-content: center;
+}
+
+#tooltip-body{
+	border-radius: 5px;
+}
+
+#tooltip-edge{
+	visibility: hidden;
+}
+	
+}
+
+
+
+
+
