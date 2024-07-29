@@ -58,7 +58,7 @@ main {
 }
 
 #fylo-icons {
-	margin-top: 20px;
+	margin-top: 33px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -112,10 +112,10 @@ main {
 #tooltip-edge {
 	width: 0px;
 	height: 0px;
-	border-right: 10px solid white;
-	border-top: 10px solid white;
-	border-left: 10px solid transparent;
-	border-bottom: 10px solid transparent;
+	border-right: 11px solid white;
+	border-top: 11px solid white;
+	border-left: 11px solid transparent;
+	border-bottom: 11px solid transparent;
 }
 
 #storage-used {
@@ -192,7 +192,7 @@ main {
 	margin: 6px 0px 0px 9px;
 	font: 700 12px 'Raleway';
 	color: hsl(229, 7%, 55%);
-	left: 1px;
+	letter-spacing: 1px;
 }
 
 
@@ -230,7 +230,7 @@ main {
 	}
 
 	#fylo-icons {
-		margin-top: 33px;
+		margin-top: 20px;
 	}
 
 	/*----------------- storage div -----------------*/
