@@ -7,19 +7,21 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
 
-Exercise for a cloud storage website. It is optimized for both desktop and mobile users. The elements have been arranged according to the provided images. The website is built using HTML and CSS.
+This component features a progress bar that visually indicates the amount of storage space used within a cloud storage application. It has been developed to be fully responsive, ensuring optimal functionality and usability across both desktop and mobile devices.
 
+The design focuses on a user-friendly interface, allowing users to easily monitor their storage status at a glance. The progress bar dynamically updates to reflect real-time changes as files are uploaded or deleted, providing immediate feedback on storage capacity.
+
+For this project, I implemented the component using only HTML, CSS, and vanilla JavaScript, without relying on any frameworks or libraries. This approach allows for greater flexibility and customization while keeping the codebase lightweight and efficient.
 
 ### Screenshot
 
-- Desktop version: [https://github.com/danielopq/fylo/blob/main/screenshots/desktop.jpg]
-- Mobile version: [https://github.com/danielopq/fylo/blob/main/screenshots/mobile.jpg]
+- [Desktop version](https://github.com/danielopq/fylo/blob/main/screenshots/desktop.jpg)
+- [Mobile version](https://github.com/danielopq/fylo/blob/main/screenshots/mobile.jpg)
 
 
 ### Links
@@ -28,7 +30,9 @@ Exercise for a cloud storage website. It is optimized for both desktop and mobil
 
 ## My process
 
-I created the website entirely for the desktop version. Once all of the elements were in place and met the design requirements, I adapted it to the mobile version using just a CSS media query.
+I developed the website primarily for the desktop version, ensuring that it adhered to all specified design requirements and functionality criteria. Once I finalized the layout and implemented all essential elements, I conducted a thorough review to verify that each component aligned with the design vision.
+
+After confirming that the desktop version met all expectations, I proceeded to adapt the site for mobile devices. This adaptation was accomplished using CSS media queries, which allowed me to create a responsive design that seamlessly adjusts to different screen sizes. By employing this approach, I ensured that users on mobile devices would have an equally engaging and user-friendly experience.
 
 ### Built with
 
