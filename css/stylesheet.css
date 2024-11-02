@@ -199,7 +199,7 @@ main {
 /*#################### MOBILE VERSION ####################*/
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
 	main {
 		width: 375px;
